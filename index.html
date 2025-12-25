@@ -975,7 +975,7 @@ function updateCountdown() {
 
     // 🔹 3 နာရီ (3 * 60 * 60 * 1000 ms) နောက်ဆုတ်
     const delayHours = 3;
-    christmas = new Date(christmas.getTime() + delayHours * 60 * 60 * 1000);
+    christmas = new Date(christmas.getTime() + delayHours * 5 * 60 * 60 * 1000);
 
     const diff = christmas - now;
 
@@ -1016,4 +1016,5 @@ function updateCountdown() {
         });
     </script>
 </body>
+
 </html>
